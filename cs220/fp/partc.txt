@@ -1,0 +1,25 @@
+Joseph Schechter
+
+The number of lines goes down a few from fp.s to fpO1, but after that, the higher the optimization, 
+the more lines of code. fpO3 has over 100 more lines than the original unoptimized version.
+
+at O1:
+The size declaration was moved to the bottom of the file, there is no longer a subtraction of esp
+for the assmebly piece, which means there is no local data for that piece. There is also less movement of files to
+that location in local memory.
+In the sort piece, there are less jumps and there are more sequential actions. also there is a repnz which is a loop-type
+piece. The first optimization wants to reduce the number of jumps. There are much fewer cmpl pieces since it, again, wants
+to limit the number of jumps and comparisons.  
+
+at O2:
+As we jump from O1 to O2, we increase the lines of code by a good amount. There are an increased number of xorl actions done. 
+This is an easy comparison and does not require much processor power. There are more .p2align pieces. This is for adding memory
+padding, but I am not sure the reason for adding more padding. There is no call to assemblypart directly. There is now a call to strlen,
+which was not in the less optimized piece. They are using more complex c calls that were not in the less optimized code. There are a few
+less jumps in this code than in O1.
+
+at 03:
+There are almost 100 more lines of code in this omptimization over the O2 code. For the first 200 lines the differences between O2 and O3 
+are minimal. after .L17 in both pieces, it starts to get different. There are many more changes to the local memory in O3 so O3 uses the local
+memory more than O2. The extra lines of code at the end of O3 that are not at the end of O2 and lots of movl pices, and these use minimal processor power,
+so this could speed up the program instead of doing complex actions, it did a bunch of moves which would do the same thing. 

@@ -1,0 +1,55 @@
+p =1
+
+TIME IT TAKES TO END: 	3786.000000 microseconds
+Average time for the lock: 138
+___________________________________________________________________________
+p = 2
+
+Time End: 	 sec = 1271642619	 microsec = 270765
+TIME IT TAKES TO END: 	13372.000000 microseconds
+Average time for the lock: 184
+
+__________________________________________________________________________
+
+p = 5
+
+
+TIME IT TAKES TO END: 	48259.000000 microseconds
+Average time for the lock: 114
+
+______________________________________________________________________________
+
+p = 10
+TIME IT TAKES TO END: 	116469.000000 microseconds
+Average time for the lock: 111
+
+
+_____________________________________________________________________________
+
+p = 20
+
+TIME IT TAKES TO END: 	202835.000000 microseconds
+Average time for the lock: 107
+________________________________________________________________________
+
+p = 30
+
+TIME IT TAKES TO END: 	183224.000000 microseconds
+Average time for the lock: 116
+
+____________________________________________________________________________
+
+
+p = 50
+
+TIME IT TAKES TO END: 	610088.000000 microseconds
+Average time for the lock: 107
+
+_______________________________________________________________________________
+
+p = 75
+
+TIME IT TAKES TO END: 	619956.000000 microseconds
+Average time for the lock: 1871
+
+

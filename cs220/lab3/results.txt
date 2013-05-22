@@ -1,0 +1,99 @@
+#	This is the initial register printout, it holds no significance, but was in the skeleton
+eax: 0xBFB760A4 ebx: 0xB7F39FF4 ecx: 0xAB283491 edx: 0x00000001
+esi: 0x08048900 edi: 0x080482F0
+
+#	B1 Addition: adding 0xA4259929E9492903 and 0x2013AD2494AEFF72
+#	answer should be across eax and ebx should be 0xC439464E:0x7DF82875
+eax: 0xC439464E ebx: 0x7DF82875 ecx: 0x2013AD24 edx: 0x94AEFF72
+esi: 0x08048900 edi: 0x080482F0
+
+#	B2 Addition adding 0x2425292949290322 and 0x2022474529AF72E2
+#	answer should be across eax and ebx should be 0x4447706E:0x72D87604
+eax: 0x4447706E ebx: 0x72D87604 ecx: 0x20224745 edx: 0x29AF72E2
+esi: 0x08048900 edi: 0x080482F0
+
+#	B3a Addition adding 0x9BA4210FB5234679 and 0x3BDEC147821ECFBA
+#	answer should be across eax and ebx should be 0xD782E257:0x37421633
+eax: 0xD782E257 ebx: 0x37421633 ecx: 0x3BDEC147 edx: 0x821ECFBA
+esi: 0x08048900 edi: 0x080482F0
+
+#	B3b Addition adding 0x3EBA7469FEC4DB10 and 0x1125BBB96BEDC142
+#	answer should be across eax and ebx should be 0x4FE03023:0x6AB29C52
+eax: 0x4FE03023 ebx: 0x6AB29C52 ecx: 0x1125BBB9 edx: 0x6BEDC142
+esi: 0x08048900 edi: 0x080482F0
+
+#	B4 Division dividing 0xA241A35FE34383E4AF4563EADBCB47EF by 0x182341AA
+#	The answer will be across eax:ebx:ecx:edx R esi; 0x00000006:0xB8DC2950:0xDADC05DC:0x9ACE14B4 R 0x0713D467
+eax: 0x00000006 ebx: 0xB8DC2950 ecx: 0xDADC05DC edx: 0x9ACE14B4
+esi: 0x0713D467 edi: 0x080482F0
+
+#	B5a Division dividing 0x398BF18A09CF572E3DDEB4711490BDFF by 0x49A0CC56
+#	The answer will be across eax:ebx:ecx:edx R esi; 0x00000000:0xC815F955:0xD63C996D:0x07648220 R 0x0D1B873F
+eax: 0x00000000 ebx: 0xC815F955 ecx: 0xD63C996D edx: 0x07648220
+esi: 0x0D1B873F edi: 0x080482F0
+
+#	B5b Division dividing 0x2166FFD98A063C89DEF7633219AABE65 by 0x896A8BBC
+#	The answer will be across eax:ebx:ecx:edx R esi; 0x00000000:0x3E3A1D8F:0xF7EE9DB1:0x67FE7F32 R 0x1F012FAD
+eax: 0x00000000 ebx: 0x3E3A1D8F ecx: 0xF7EE9DB1 edx: 0x67FE7F32
+esi: 0x1F012FAD edi: 0x080482F0
+
+#	B5c Division dividing 0xA9820BCF7665EE387621445CCFBB1299 by 0xCBDE12AA
+#	The answer will be across eax:ebx:ecx:edx R esi; 0x00000000:0xD4DAAC57:0x60375DD9:0x45CC78E2 R 0x0B76E885
+eax: 0x00000000 ebx: 0xD4DAAC57 ecx: 0x60375DD9 edx: 0x45CC78E2
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	B6 Multiplication multiply the numbers 0x2425292949290322 * 0x2013AD2494AEFF72
+#	the answer will be across eax:ebx:ecx:edx; 0x04876C59:0x7E3E6FCD:0x71504EBA:0x377E4324
+eax: 0x04876C59 ebx: 0x7E3E6FCD ecx: 0x71504EBA edx: 0x377E4324
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	B7a Multiplication multiply the numbers 0x9C86B3AADE87F377 * 0x5BEF43228AFECCDE
+#	the answer will be across eax:ebx:ecx:edx; 0x38362CAB:0xD986112A:0x2F598671:0x05F9F532
+eax: 0x38362CAB ebx: 0xD986112A ecx: 0x2F598671 edx: 0x05F9F532
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	B7b Multiplication multiply the numbers 0xDD855421BAAF443D * 0x667A8E621BB9CF72
+#	the answer will be across eax:ebx:ecx:edx; 0x58AD2C44:0x62278FE8:0x517B172D:0x994EB62A
+eax: 0x58AD2C44 ebx: 0x62278FE8 ecx: 0x517B172D edx: 0x994EB62A
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	B7c Multiplication multiply the numbers 0x8ABF1926A63298DD * 0xBB5098002DFEAACC
+#	the answer will be across eax:ebx:ecx:edx; 0x65854578:0xA75775BF:0x755EB83C:0x8E1A921C
+eax: 0x65854578 ebx: 0xA75775BF ecx: 0x755EB83C edx: 0x8E1A921C
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	C1 color code separation for 34,927 (decimal)
+#	blue = ebx should be 0xXXXX000F, green = ecx should be 0xXXX0003, red = edx should be 0xXXXX0011
+#	I didnt bother to clear the upper halfs- it doesnt effect the values in the lower parts which are what we want
+eax: 0x6585886F ebx: 0xA757000F ecx: 0x755E0003 edx: 0x8E1A0011
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	C2 color code computation red=13, green=25, blue=11
+#	eax should be 0xXXXX6B2B
+#	I didnt bother to clear the upper half- it doesnt effect the values in the lower parts which are what we want
+eax: 0x65856B2B ebx: 0xA757000B ecx: 0x755E0019 edx: 0x8E1A000D
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	C3a1 color code separation for 16720 (decimal)
+#	blue = ebx should be 0xXXXX0010, green = ecx should be 0xXXX000A, red = edx should be 0xXXXX0008
+#	I didnt bother to clear the upper halfs- it doesnt effect the values in the lower parts which are what we want
+eax: 0x65854150 ebx: 0xA7570010 ecx: 0x755E000A edx: 0x8E1A0008
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	C3a2 color code separation for 9822 (decimal)
+#	blue = ebx should be 0xXXXX001E, green = ecx should be 0xXXX0032, red = edx should be 0xXXXX0004
+#	I didnt bother to clear the upper halfs- it doesnt effect the values in the lower parts which are what we want
+eax: 0x6585265E ebx: 0xA757001E ecx: 0x755E0032 edx: 0x8E1A0004
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	C3b1 color code computation red=5, green=20, blue=1
+#	eax should be 0xXXXX2A81
+#	I didnt bother to clear the upper half- it doesnt effect the values in the lower parts which are what we want
+eax: 0x65852A81 ebx: 0xA7570001 ecx: 0x755E0014 edx: 0x8E1A0005
+esi: 0x0B76E885 edi: 0x080482F0
+
+#	C3b2 color code computation red=31, green=18, blue=16
+#	eax should be 0xXXXXFA50
+#	I didnt bother to clear the upper half- it doesnt effect the values in the lower parts which are what we want
+eax: 0x6585FA50 ebx: 0xA7570010 ecx: 0x755E0012 edx: 0x8E1A001F
+esi: 0x0B76E885 edi: 0x080482F0

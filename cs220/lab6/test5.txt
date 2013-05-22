@@ -1,0 +1,11 @@
+snarl:~/cs220/lab6> ./test5
+You entered: Ifmmp!Xpsme
+Size: 2
+You entered: [jq!234!A$/~!gM1
+Size: 2
+You entered: uFtuJoh!BfJpVbFj
+Size: 2
+You entered: 23456789:1.`,>0}
+Size: 2
+You entered: Uijt!jt!Kptfqi!T's Lab6 test.c file for cs220ÿ
+Size: 2

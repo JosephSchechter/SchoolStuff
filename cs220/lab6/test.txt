@@ -1,0 +1,11 @@
+snarl:~/cs220/lab6> ./test
+You entered: Hello World
+Size: 11
+You entered: Zip 123 @#.} fL09PeIoU
+Size: 22
+You entered: tEstIng AeIoUaEiOu
+Size: 18
+You entered: 1234567890-_+=/|?.,
+Size: 19
+You entered: This is Joseph Schechter's Lab6 test.c file for cs220
+Size: 53

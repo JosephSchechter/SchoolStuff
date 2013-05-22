@@ -1,0 +1,43 @@
+test1
+total number of words: 9
+aaab length: 4
+aab length: 3
+aaa length: 3
+asdsdasdasdsa length: 13
+bbasdas length: 7
+aaba length: 4
+aba length: 3
+aa length: 2
+a length: 1
+
+test2: start: 0 end: 8 place: 0
+test3
+test4
+' '  = 0 , a = 8 , b = 1 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+a
+aa
+aba
+aaba
+asdsdasdasdsa
+aaa
+aab
+aaab
+bbasdas
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 8 , c = 9 , d = 9 , e = 9 , f = 9 , g = 9 , h = 9 , i = 9 , j = 9 , k = 9 , l = 9 , m = 9 , n = 9 , o = 9 , p = 9 , q = 9 , r = 9 , s = 9 , t = 9 , u = 9 , v = 9 , w = 9 , x = 9 , y = 9 , z = 9 , A = 9 , B = 9 , C = 9 , D = 9 , E = 9 , F = 9 , G = 9 , H = 9 , I = 9 , J = 9 , K = 9 , L = 9 , M = 9 , N = 9 , O = 9 , P = 9 , Q = 9 , R = 9 , S = 9 , T = 9 , U = 9 , V = 9 , W = 9 , X = 9 , Y = 9 , Z = 9 , 
+
+NUMber of dif start letters = 2
+
+
+~~~FINAL LIST~~~
+a
+aa
+aba
+aaba
+asdsdasdasdsa
+aaa
+aab
+aaab
+bbasdas

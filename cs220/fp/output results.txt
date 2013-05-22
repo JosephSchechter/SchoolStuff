@@ -1,0 +1,178 @@
+Joseph Schechter
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: test1
+size of the string is 5 characters (not including null)
+the string is: test1
+
+
+The sorted string is: ttse1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: 12sbasddsla
+size of the string is 11 characters (not including null)
+the string is: 12sbasddsla
+
+
+The sorted string is: ssslddbaa21
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: applesandbananas
+size of the string is 16 characters (not including null)
+the string is: applesandbananas
+
+
+The sorted string is: ssppnnnledbaaaaa
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: b s sadsaadsoe p0981'][sas peui
+size of the string is 31 characters (not including null)
+the string is: b s sadsaadsoe p0981'][sas peui
+
+
+The sorted string is: ussssssppoieeddbaaaa][9810'    
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: 
+
+You put in a newline only.
+The size of the string is 0 characters including null and its sorted version is: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: .test1wddsa 921327 base dof uy?>><LLF]][\\dja
+size of the string is 45 characters (not including null)
+the string is: .test1wddsa 921327 base dof uy?>><LLF]][\\dja
+
+
+The sorted string is: ywuttsssojfeeddddbaaa]]\\[LLF?>><9732211.  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: facebook12331232132121323132190932099u0d90uda0j0adsh80dsah9hads9uwdhda-j9axs09jninidajopdaopjpojadjpsaihafsfanonpfaofa0fah0hf9jfa8h0fa80haf9-j-wd9afw0h08haf8g0hhfqe9-jefj-fj-9jwh9h09efhfe0hfacebook12331232132121323132190932099u0d90uda0j0adsh80dsah9hads9uwdhda-j9axs09jninidajopdaopjpojadjpsaihafsfanonpfaofa0fah0hf9jfa8h0fa80haf9-j-wd9afw0h08haf8g0hhfqe9-jefj-fj-9jwh9h09efhfe0h
+size of the string is 378 characters (not including null)
+the string is: facebook12331232132121323132190932099u0d90uda0j0adsh80dsah9hads9uwdhda-j9axs09jninidajopdaopjpojadjpsaihafsfanonpfaofa0fah0hf9jfa8h0fa80haf9-j-wd9afw0h08haf8g0hhfqe9-jefj-fj-9jwh9h09efhfe0hfacebook12331232132121323132190932099u0d90uda0j0adsh80dsah9hads9uwdhda-j9axs09jninidajopdaopjpojadjpsaihafsfanonpfaofa0fah0hf9jfa8h0fa80haf9-j-wd9afw0h08haf8g0hhfqe9-jefj-fj-9jwh9h09efhfe0h
+
+
+The sorted string is: xxwwwwwwwwuuuuuussssssssssssqqppppppppppoooooooooooooonnnnnnnnkkjjjjjjjjjjjjjjjjjjjjjjjjjjiiiiiihhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhggffffffffffffffffffffffffffffffffffeeeeeeeeeeddddddddddddddddddddddccbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa99999999999999999999999999999999888888888833333333333333332222222222222222111111111111110000000000000000000000000000000000------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: 09999999999999999999991213998932649823489uvbsasdasldkndiow .sakdsuadsugdasadsbasd78ca-0s-d--asdssdinsuybdavd[pojsoidsadindsisndnd.,ds.asda.,ds.,.,lkdsaidasoudsd7s
+size of the string is 162 characters (not including null)
+the string is: 09999999999999999999991213998932649823489uvbsasdasldkndiow .sakdsuadsugdasadsbasd78ca-0s-d--asdssdinsuybdavd[pojsoidsadindsisndnd.,ds.asda.,ds.,.,lkdsaidasoudsd7s
+
+
+The sorted string is: ywvvuuuuussssssssssssssssssssssssspoooonnnnnllkkkjiiiiiigdddddddddddddddddddddddddcbbbaaaaaaaaaaaaaaa[999999999999999999999999998888776443332221100......----,,,, 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: assadlknadslsndadaoisboadsoaidbsaidsdp[weqopweeooicfmodicnsuidbiua\][[p.[poj
+size of the string is 76 characters (not including null)
+the string is: assadlknadslsndadaoisboadsoaidbsaidsdp[weqopweeooicfmodicnsuidbiua\][[p.[poj
+
+
+The sorted string is: wwuusssssssssqppppoooooooonnnmllkjiiiiiiifeeeddddddddddccbbbaaaaaaaaa]\[[[[.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: numbers123456790
+size of the string is 16 characters (not including null)
+the string is: numbers123456790
+
+
+The sorted string is: usrnmeb976543210
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: <><><><><><>;'
+size of the string is 14 characters (not including null)
+the string is: <><><><><><>;'
+
+
+The sorted string is: >>>>>><<<<<<;'
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: happy birthday
+size of the string is 16 characters (not including null)
+the string is: happy birthday 
+
+
+The sorted string is: yytrppihhdbaa  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: words and phrases go before numbers like 12321
+size of the string is 46 characters (not including null)
+the string is: words and phrases go before numbers like 12321
+
+
+The sorted string is: wussssrrrrpooonnmlkihgfeeeeeddbbaa32211    
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: qwertyuiopasdfghjklzxcvbnm      
+size of the string is 26 characters (not including null)
+the string is: qwertyuiopasdfghjklzxcvbnm
+
+
+The sorted string is: zyxwvutsrqponmlkjihgfedcba
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: finaltest!@#$%^&*()90390doads9umcka
+size of the string is 35 characters (not including null)
+the string is: finaltest!@#$%^&*()90390doads9umcka
+
+
+The sorted string is: uttssonmlkifeddcaaa^@999300*)(&%$#!
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: i dont want to test this anymore, testing is boring
+size of the string is 51 characters (not including null)
+the string is: i dont want to test this anymore, testing is boring
+
+
+The sorted string is: ywttttttttssssrroooonnnnnmiiiiihggeeedbaa,   
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: this isn't even 20 yet         
+size of the string is 22 characters (not including null)
+the string is: this isn't even 20 yet
+
+
+The sorted string is: yvtttssnniiheee20'    
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: soon i will have to talk about optimizations
+size of the string is 44 characters (not including null)
+the string is: soon i will have to talk about optimizations
+
+
+The sorted string is: zwvutttttsspoooooonnmlllkiiiiihebaaaa       
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: wwww.google.com/
+size of the string is 16 characters (not including null)
+the string is: wwww.google.com/
+
+
+The sorted string is: wwwwooomlggec/..
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+snarl:~/cs220/fp> ./final
+Input your string and it will be sorted for you: 1 more test and i am done :)
+size of the string is 28 characters (not including null)
+the string is: 1 more test and i am done :)
+
+
+The sorted string is: ttsroonnmmieeeddaa:1)       
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  

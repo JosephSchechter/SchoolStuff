@@ -1,0 +1,44 @@
+Joseph Schechter
+
+the assembly part has become this:
+++++++++++++++++++++++++++++++++++++++
+#APP
+# 12 "fp.c" 1
+	movl	$0, %ecx
+	movb	(%edx), %al
+	addl	$1, %edx
+	movb	(%edx), %bl
+	cmpb	%al, %bl
+	jle	end
+	movb	%al, (%edx)
+	addl	$-1, %edx
+	movb	%bl, (%edx)
+	movl	$1, %ecx
+	end:
+++++++++++++++++++++++++++++++++++++++
+	this is from
+	__asm__(
+			"movl	$0, %0\n\t"
+			"movb	(%1), %%al\n\t"	//1st char into al
+			"addl	$1, %1\n\t"		//next mem addr
+			"movb	(%1), %%bl\n\t"	//2nd char into bl
+			"cmpb	%%al, %%bl\n\t"
+			"jle	end\n\t"		//if the 2nd char is less or equal, jumpt to end
+			"movb	%%al, (%1)\n\t"	//move 1st char into 2nd's mem addr
+			"addl	$-1, %1\n\t"	//1st mem addr
+			"movb	%%bl, (%1)\n\t"	//move 2nd char into 1st's mem addr
+			"movl	$1, %0\n\t"		//output is 1 (swap occured, sc==1)
+			"end:\n\t"				//jump here if less of equal
+			:"=&r"(sc)				//output- (swap counter)
+			:"r"(str)			//input- mem addr of 1st character being compared
+			:"memory", "eax", "ebx"	//clobber- memory, eax and ebx are used and are not in input or output
+			);
+++++++++++++++++++++++++++++++++++++++
+
+
+This is pretty much word for word of what I wrote. It picked register zero to be ecx, and
+it picked register one to be edx. Other than picking what registers to use where I put r's,
+the code is the same. Since I wrote this code as inline assembly, it takes my code for that part
+and will use it exactly as I have stated for it to be used. Ecx and edx are different since I
+put the & symbol, so the 2 registers are not allowed to be the same.
+	

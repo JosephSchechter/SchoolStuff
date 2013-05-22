@@ -1,0 +1,517 @@
+test1
+total number of words: 36
+soli length: 4
+anGryBird length: 9
+angrish length: 7
+lazaruzz length: 8
+gettttt length: 7
+teh length: 3
+cash length: 4
+hellish length: 7
+mangrybirds length: 11
+msms length: 4
+revlSSDs length: 8
+backagain length: 9
+Popsdsmsakdn length: 12
+AnGryBid length: 8
+byon length: 4
+butt length: 4
+butterfly length: 9
+buttafly length: 8
+SASsdasdsa length: 10
+angrYBirds length: 10
+SasaSADdasasd length: 13
+SAsdsdnasdsdS length: 13
+filthydsasldda length: 14
+mangirh length: 7
+robobir length: 7
+angrybirds length: 10
+angrybird length: 9
+shmiddit length: 8
+dorrar length: 6
+delish length: 6
+rellish length: 7
+hell length: 4
+solodolo length: 8
+sol length: 3
+polly length: 5
+hello length: 5
+
+test2: start: 0 end: 35 place: 0
+test3
+test4
+' '  = 0 , a = 5 , b = 5 , c = 1 , d = 2 , e = 0 , f = 1 , g = 1 , h = 3 , i = 0 , j = 0 , k = 0 , l = 1 , m = 3 , n = 0 , o = 0 , p = 1 , q = 0 , r = 3 , s = 4 , t = 1 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 1 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 1 , Q = 0 , R = 0 , S = 3 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+angrybird
+angrybirds
+angrYBirds
+angrish
+anGryBird
+buttafly
+butterfly
+butt
+byon
+backagain
+cash
+delish
+dorrar
+filthydsasldda
+gettttt
+hello
+hell
+hellish
+lazaruzz
+mangirh
+msms
+mangrybirds
+polly
+rellish
+robobir
+revlSSDs
+sol
+solodolo
+shmiddit
+soli
+teh
+AnGryBid
+Popsdsmsakdn
+SAsdsdnasdsdS
+SasaSADdasasd
+SASsdasdsa
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 5 , c = 10 , d = 11 , e = 13 , f = 13 , g = 14 , h = 15 , i = 18 , j = 18 , k = 18 , l = 18 , m = 19 , n = 22 , o = 22 , p = 22 , q = 23 , r = 23 , s = 26 , t = 30 , u = 31 , v = 31 , w = 31 , x = 31 , y = 31 , z = 31 , A = 31 , B = 32 , C = 32 , D = 32 , E = 32 , F = 32 , G = 32 , H = 32 , I = 32 , J = 32 , K = 32 , L = 32 , M = 32 , N = 32 , O = 32 , P = 32 , Q = 33 , R = 33 , S = 33 , T = 36 , U = 36 , V = 36 , W = 36 , X = 36 , Y = 36 , Z = 36 , 
+
+NUMber of dif start letters = 16
+
+test2: start: 0 end: 4 place: 1
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 5 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+anGryBird
+angrish
+angrYBirds
+angrybirds
+angrybird
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 5 , p = 5 , q = 5 , r = 5 , s = 5 , t = 5 , u = 5 , v = 5 , w = 5 , x = 5 , y = 5 , z = 5 , A = 5 , B = 5 , C = 5 , D = 5 , E = 5 , F = 5 , G = 5 , H = 5 , I = 5 , J = 5 , K = 5 , L = 5 , M = 5 , N = 5 , O = 5 , P = 5 , Q = 5 , R = 5 , S = 5 , T = 5 , U = 5 , V = 5 , W = 5 , X = 5 , Y = 5 , Z = 5 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 0 end: 4 place: 2
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 4 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 1 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+angrybird
+angrybirds
+angrYBirds
+angrish
+anGryBird
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 4 , i = 4 , j = 4 , k = 4 , l = 4 , m = 4 , n = 4 , o = 4 , p = 4 , q = 4 , r = 4 , s = 4 , t = 4 , u = 4 , v = 4 , w = 4 , x = 4 , y = 4 , z = 4 , A = 4 , B = 4 , C = 4 , D = 4 , E = 4 , F = 4 , G = 4 , H = 5 , I = 5 , J = 5 , K = 5 , L = 5 , M = 5 , N = 5 , O = 5 , P = 5 , Q = 5 , R = 5 , S = 5 , T = 5 , U = 5 , V = 5 , W = 5 , X = 5 , Y = 5 , Z = 5 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 0 end: 3 place: 3
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 4 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+angrish
+angrYBirds
+angrybirds
+angrybird
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 4 , t = 4 , u = 4 , v = 4 , w = 4 , x = 4 , y = 4 , z = 4 , A = 4 , B = 4 , C = 4 , D = 4 , E = 4 , F = 4 , G = 4 , H = 4 , I = 4 , J = 4 , K = 4 , L = 4 , M = 4 , N = 4 , O = 4 , P = 4 , Q = 4 , R = 4 , S = 4 , T = 4 , U = 4 , V = 4 , W = 4 , X = 4 , Y = 4 , Z = 4 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 0 end: 3 place: 4
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 1 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 2 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 1 , Z = 0 , 
+~~~partial list~~
+angrish
+angrybird
+angrybirds
+angrYBirds
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 1 , k = 1 , l = 1 , m = 1 , n = 1 , o = 1 , p = 1 , q = 1 , r = 1 , s = 1 , t = 1 , u = 1 , v = 1 , w = 1 , x = 1 , y = 1 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 4 , 
+
+NUMber of dif start letters = 3
+
+test2: start: 0 end: 0 place: 5
+
+test2: start: 0 end: 1 place: 5
+test3
+test4
+' '  = 0 , a = 0 , b = 1 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 1 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+angrybird
+angrish
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 1 , d = 1 , e = 1 , f = 1 , g = 1 , h = 1 , i = 1 , j = 1 , k = 1 , l = 1 , m = 1 , n = 1 , o = 1 , p = 1 , q = 1 , r = 1 , s = 1 , t = 2 , u = 2 , v = 2 , w = 2 , x = 2 , y = 2 , z = 2 , A = 2 , B = 2 , C = 2 , D = 2 , E = 2 , F = 2 , G = 2 , H = 2 , I = 2 , J = 2 , K = 2 , L = 2 , M = 2 , N = 2 , O = 2 , P = 2 , Q = 2 , R = 2 , S = 2 , T = 2 , U = 2 , V = 2 , W = 2 , X = 2 , Y = 2 , Z = 2 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 0 end: 0 place: 6
+
+test2: start: 0 end: 0 place: 6
+
+test2: start: 0 end: 0 place: 5
+
+test2: start: 0 end: 0 place: 3
+
+test2: start: 5 end: 9 place: 1
+test3
+test4
+' '  = 0 , a = 1 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 3 , v = 0 , w = 0 , x = 0 , y = 1 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+backagain
+butt
+butterfly
+buttafly
+byon
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 1 , c = 1 , d = 1 , e = 1 , f = 1 , g = 1 , h = 1 , i = 1 , j = 1 , k = 1 , l = 1 , m = 1 , n = 1 , o = 1 , p = 1 , q = 1 , r = 1 , s = 1 , t = 1 , u = 1 , v = 4 , w = 4 , x = 4 , y = 4 , z = 5 , A = 5 , B = 5 , C = 5 , D = 5 , E = 5 , F = 5 , G = 5 , H = 5 , I = 5 , J = 5 , K = 5 , L = 5 , M = 5 , N = 5 , O = 5 , P = 5 , Q = 5 , R = 5 , S = 5 , T = 5 , U = 5 , V = 5 , W = 5 , X = 5 , Y = 5 , Z = 5 , 
+
+NUMber of dif start letters = 3
+
+test2: start: 5 end: 5 place: 2
+
+test2: start: 5 end: 7 place: 2
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 1 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 2 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+backagain
+butterfly
+butt
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 1 , e = 1 , f = 1 , g = 1 , h = 1 , i = 1 , j = 1 , k = 1 , l = 1 , m = 1 , n = 1 , o = 1 , p = 1 , q = 1 , r = 1 , s = 1 , t = 1 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 5 end: 5 place: 3
+
+test2: start: 5 end: 6 place: 3
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 1 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 1 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+backagain
+butterfly
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 1 , m = 1 , n = 1 , o = 1 , p = 1 , q = 1 , r = 1 , s = 1 , t = 1 , u = 2 , v = 2 , w = 2 , x = 2 , y = 2 , z = 2 , A = 2 , B = 2 , C = 2 , D = 2 , E = 2 , F = 2 , G = 2 , H = 2 , I = 2 , J = 2 , K = 2 , L = 2 , M = 2 , N = 2 , O = 2 , P = 2 , Q = 2 , R = 2 , S = 2 , T = 2 , U = 2 , V = 2 , W = 2 , X = 2 , Y = 2 , Z = 2 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 5 end: 5 place: 4
+
+test2: start: 5 end: 5 place: 4
+
+test2: start: 5 end: 5 place: 2
+
+test2: start: 6 end: 6 place: 1
+
+test2: start: 8 end: 9 place: 1
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 1 , v = 0 , w = 0 , x = 0 , y = 1 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+buttafly
+byon
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 1 , w = 1 , x = 1 , y = 1 , z = 2 , A = 2 , B = 2 , C = 2 , D = 2 , E = 2 , F = 2 , G = 2 , H = 2 , I = 2 , J = 2 , K = 2 , L = 2 , M = 2 , N = 2 , O = 2 , P = 2 , Q = 2 , R = 2 , S = 2 , T = 2 , U = 2 , V = 2 , W = 2 , X = 2 , Y = 2 , Z = 2 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 8 end: 8 place: 2
+
+test2: start: 8 end: 8 place: 2
+
+test2: start: 8 end: 8 place: 1
+
+test2: start: 9 end: 9 place: 1
+
+test2: start: 12 end: 14 place: 1
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 1 , f = 0 , g = 0 , h = 0 , i = 1 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 1 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+gettttt
+filthydsasldda
+dorrar
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 1 , g = 1 , h = 1 , i = 1 , j = 2 , k = 2 , l = 2 , m = 2 , n = 2 , o = 2 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 3
+
+test2: start: 12 end: 12 place: 2
+
+test2: start: 12 end: 12 place: 2
+
+test2: start: 12 end: 12 place: 2
+
+test2: start: 12 end: 12 place: 1
+
+test2: start: 15 end: 17 place: 1
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 3 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hellish
+hell
+hello
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 3 , g = 3 , h = 3 , i = 3 , j = 3 , k = 3 , l = 3 , m = 3 , n = 3 , o = 3 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 15 end: 17 place: 2
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 3 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hello
+hell
+hellish
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 3 , n = 3 , o = 3 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 15 end: 17 place: 3
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 3 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hellish
+hell
+hello
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 3 , n = 3 , o = 3 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 15 end: 17 place: 4
+test3
+test4
+' '  = 1 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 1 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 1 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hell
+hellish
+hello
+
+~~~Tracking Array~~~
+' '  = 0 , a = 1 , b = 1 , c = 1 , d = 1 , e = 1 , f = 1 , g = 1 , h = 1 , i = 1 , j = 2 , k = 2 , l = 2 , m = 2 , n = 2 , o = 2 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 16 end: 16 place: 5
+
+test2: start: 16 end: 16 place: 5
+
+test2: start: 15 end: 15 place: 1
+
+test2: start: 15 end: 17 place: 1
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 3 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hello
+hellish
+hell
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 3 , g = 3 , h = 3 , i = 3 , j = 3 , k = 3 , l = 3 , m = 3 , n = 3 , o = 3 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 15 end: 17 place: 2
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 3 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hell
+hellish
+hello
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 3 , n = 3 , o = 3 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 15 end: 17 place: 3
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 3 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hello
+hellish
+hell
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 3 , n = 3 , o = 3 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 15 end: 17 place: 4
+test3
+test4
+' '  = 1 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 1 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 1 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+hell
+hellish
+hello
+
+~~~Tracking Array~~~
+' '  = 0 , a = 1 , b = 1 , c = 1 , d = 1 , e = 1 , f = 1 , g = 1 , h = 1 , i = 1 , j = 2 , k = 2 , l = 2 , m = 2 , n = 2 , o = 2 , p = 3 , q = 3 , r = 3 , s = 3 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 16 end: 16 place: 5
+
+test2: start: 16 end: 16 place: 5
+
+test2: start: 19 end: 22 place: 1
+test3
+test4
+' '  = 0 , a = 2 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 1 , p = 0 , q = 0 , r = 0 , s = 1 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+mangrybirds
+mangirh
+polly
+msms
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 2 , c = 2 , d = 2 , e = 2 , f = 2 , g = 2 , h = 2 , i = 2 , j = 2 , k = 2 , l = 2 , m = 2 , n = 2 , o = 2 , p = 3 , q = 3 , r = 3 , s = 3 , t = 4 , u = 4 , v = 4 , w = 4 , x = 4 , y = 4 , z = 4 , A = 4 , B = 4 , C = 4 , D = 4 , E = 4 , F = 4 , G = 4 , H = 4 , I = 4 , J = 4 , K = 4 , L = 4 , M = 4 , N = 4 , O = 4 , P = 4 , Q = 4 , R = 4 , S = 4 , T = 4 , U = 4 , V = 4 , W = 4 , X = 4 , Y = 4 , Z = 4 , 
+
+NUMber of dif start letters = 3
+
+test2: start: 19 end: 20 place: 2
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 2 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+mangirh
+mangrybirds
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 2 , p = 2 , q = 2 , r = 2 , s = 2 , t = 2 , u = 2 , v = 2 , w = 2 , x = 2 , y = 2 , z = 2 , A = 2 , B = 2 , C = 2 , D = 2 , E = 2 , F = 2 , G = 2 , H = 2 , I = 2 , J = 2 , K = 2 , L = 2 , M = 2 , N = 2 , O = 2 , P = 2 , Q = 2 , R = 2 , S = 2 , T = 2 , U = 2 , V = 2 , W = 2 , X = 2 , Y = 2 , Z = 2 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 19 end: 20 place: 3
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 2 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 0 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+mangrybirds
+mangirh
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 2 , i = 2 , j = 2 , k = 2 , l = 2 , m = 2 , n = 2 , o = 2 , p = 2 , q = 2 , r = 2 , s = 2 , t = 2 , u = 2 , v = 2 , w = 2 , x = 2 , y = 2 , z = 2 , A = 2 , B = 2 , C = 2 , D = 2 , E = 2 , F = 2 , G = 2 , H = 2 , I = 2 , J = 2 , K = 2 , L = 2 , M = 2 , N = 2 , O = 2 , P = 2 , Q = 2 , R = 2 , S = 2 , T = 2 , U = 2 , V = 2 , W = 2 , X = 2 , Y = 2 , Z = 2 , 
+
+NUMber of dif start letters = 1
+
+test2: start: 19 end: 20 place: 4
+test3
+test4
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 1 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 0 , p = 0 , q = 0 , r = 1 , s = 0 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+mangirh
+mangrybirds
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 1 , k = 1 , l = 1 , m = 1 , n = 1 , o = 1 , p = 1 , q = 1 , r = 1 , s = 2 , t = 2 , u = 2 , v = 2 , w = 2 , x = 2 , y = 2 , z = 2 , A = 2 , B = 2 , C = 2 , D = 2 , E = 2 , F = 2 , G = 2 , H = 2 , I = 2 , J = 2 , K = 2 , L = 2 , M = 2 , N = 2 , O = 2 , P = 2 , Q = 2 , R = 2 , S = 2 , T = 2 , U = 2 , V = 2 , W = 2 , X = 2 , Y = 2 , Z = 2 , 
+
+NUMber of dif start letters = 2
+
+test2: start: 19 end: 19 place: 5
+
+test2: start: 19 end: 19 place: 5
+
+test2: start: 19 end: 19 place: 2
+
+test2: start: 19 end: 19 place: 2
+
+test2: start: 20 end: 20 place: 1
+
+test2: start: 20 end: 20 place: 1
+
+test2: start: 20 end: 20 place: 1
+
+test2: start: 20 end: 22 place: 1
+test3
+test4
+' '  = 0 , a = 1 , b = 0 , c = 0 , d = 0 , e = 0 , f = 0 , g = 0 , h = 0 , i = 0 , j = 0 , k = 0 , l = 0 , m = 0 , n = 0 , o = 1 , p = 0 , q = 0 , r = 0 , s = 1 , t = 0 , u = 0 , v = 0 , w = 0 , x = 0 , y = 0 , z = 0 , A = 0 , B = 0 , C = 0 , D = 0 , E = 0 , F = 0 , G = 0 , H = 0 , I = 0 , J = 0 , K = 0 , L = 0 , M = 0 , N = 0 , O = 0 , P = 0 , Q = 0 , R = 0 , S = 0 , T = 0 , U = 0 , V = 0 , W = 0 , X = 0 , Y = 0 , Z = 0 , 
+~~~partial list~~
+mangrybirds
+polly
+msms
+
+~~~Tracking Array~~~
+' '  = 0 , a = 0 , b = 1 , c = 1 , d = 1 , e = 1 , f = 1 , g = 1 , h = 1 , i = 1 , j = 1 , k = 1 , l = 1 , m = 1 , n = 1 , o = 1 , p = 2 , q = 2 , r = 2 , s = 2 , t = 3 , u = 3 , v = 3 , w = 3 , x = 3 , y = 3 , z = 3 , A = 3 , B = 3 , C = 3 , D = 3 , E = 3 , F = 3 , G = 3 , H = 3 , I = 3 , J = 3 , K = 3 , L = 3 , M = 3 , N = 3 , O = 3 , P = 3 , Q = 3 , R = 3 , S = 3 , T = 3 , U = 3 , V = 3 , W = 3 , X = 3 , Y = 3 , Z = 3 , 
+
+NUMber of dif start letters = 3
+
+test2: start: 20 end: 20 place: 2
+
+test2: start: 20 end: 20 place: 2
+
+test2: start: 20 end: 20 place: 2
+
+
+~~~FINAL LIST~~~
+angrybird
+angrish
+angrybirds
+angrYBirds
+anGryBird
+backagain
+butterfly
+butt
+buttafly
+byon
+cash
+delish
+gettttt
+filthydsasldda
+dorrar
+hell
+hellish
+hello
+lazaruzz
+mangirh
+mangrybirds
+polly
+msms
+rellish
+robobir
+revlSSDs
+sol
+solodolo
+shmiddit
+soli
+teh
+AnGryBid
+Popsdsmsakdn
+SAsdsdnasdsdS
+SasaSADdasasd
+SASsdasdsa

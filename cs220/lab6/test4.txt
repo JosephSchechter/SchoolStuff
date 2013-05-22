@@ -1,0 +1,11 @@
+snarl:~/cs220/lab6> ./test4
+You entered: hELLO wORLD
+Size: 11
+You entered: zIP 123 @#.} Fl09pEiOu
+Size: 22
+You entered: TeSTiNG aEiOuAeIoU
+Size: 18
+You entered: 1234567890-_+=/|?.,
+Size: 19
+You entered: tHIS IS jOSEPH sCHECHTER'S lAB6 TEST.C FILE FOR CS220
+Size: 53

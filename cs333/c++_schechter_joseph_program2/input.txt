@@ -1,0 +1,69 @@
+6
+ID: 100
+subject: How to train your dragon
+date: 1234567
+to: myemail@gmail.net
+from: youremail@fl.org
+lines: 5
+aaaaaaaa
+aaaaaaaa
+aaaaaaaa
+aaaaaaaa
+aaaaaaaa
+ID: 67
+subject: b and d
+date: 143303
+to: sly@gmail.net
+from: flicks@om.org
+lines: 7
+bbbbbbb
+bbbbbbb
+bbbbbbb
+bbbbbbb
+bbbbbbb
+bbbbbbb
+bbbbbbb
+ID: 5
+subject: re your brains
+date: 5553222
+to: rez@gmail.net
+from: flsiis@aaa.org
+lines: 2
+fffff
+fffffffff
+ID: 170
+subject: How t
+date: 4142241
+to: myemail@gmail.net
+from: youremail@fl.org
+lines: 3
+aaaaaaaa
+aaaaaaaa
+aaaaaaaa
+ID: 670
+subject: bssssss
+date: 332322
+to: sly@gmail.net
+from: flicks@om.org
+lines: 1
+bbbbbbb
+ID: 69999
+subject: oldnews
+date: 111111
+to: sly@gmail.net
+from: flicks@om.org
+lines: 14
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc
+ccc

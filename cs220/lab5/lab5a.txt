@@ -1,0 +1,87 @@
+Lab5a.txt by Joseph Schechter
+class11:~/cs220/lab5> gdb lab5a
+GNU gdb 6.8-debian
+Copyright (C) 2008 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i486-linux-gnu"...
+(gdb) break lab5a.s: 81
+Breakpoint 1 at 0x80483a7: file lab5a.s, line 81.
+(gdb) run
+Starting program: /import/linux/home/jschech1/cs220/lab5/lab5a 
+
+Breakpoint 1, myfunc3 () at lab5a.s:81
+81		leave
+Current language:  auto; currently asm
+(gdb) bt
+#0  myfunc3 () at lab5a.s:81
+#1  0x08048396 in myfunc2 () at lab5a.s:55
+#2  0x0804838c in myfunc1 () at lab5a.s:38
+#3  0x08048382 in main () at lab5a.s:17
+(gdb) info r
+eax            0xbffe7a54	-1073841580
+ecx            0xd9083491	-653773679
+edx            0x1	1
+ebx            0xb7fa8ff4	-1208315916
+esp            0xbffe7994	0xbffe7994
+ebp            0xbffe7998	0xbffe7998
+esi            0x80483c0	134513600
+edi            0x80482c0	134513344
+eip            0x80483a7	0x80483a7 <myfunc3+15>
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) x/f  0xbffe7994
+0xbffe7994:	0.318309873
+(gdb) x/f  $ebp-4
+0xbffe7994:	0.318309873
+(gdb) x/x  $ebp-4
+0xbffe7994:	0x3ea2f983
+(gdb) step
+myfunc3 () at lab5a.s:82
+82		ret
+(gdb) step
+myfunc2 () at lab5a.s:57
+57		leave
+(gdb) bt
+#0  myfunc2 () at lab5a.s:57
+#1  0x0804838c in myfunc1 () at lab5a.s:38
+#2  0x08048382 in main () at lab5a.s:17
+(gdb) step
+myfunc2 () at lab5a.s:58
+58		ret
+(gdb) step
+myfunc1 () at lab5a.s:40
+40		leave
+(gdb) bt
+#0  myfunc1 () at lab5a.s:40
+#1  0x08048382 in main () at lab5a.s:17
+(gdb) step
+myfunc1 () at lab5a.s:41
+41		ret
+(gdb) step
+main () at lab5a.s:19
+19		leave
+(gdb) bt
+#0  main () at lab5a.s:19
+(gdb) step
+main () at lab5a.s:20
+20		ret
+(gdb) step
+0xb7e68455 in __libc_start_main () from /lib/i686/cmov/libc.so.6
+(gdb) bt
+#0  0xb7e68455 in __libc_start_main () from /lib/i686/cmov/libc.so.6
+#1  0x080482e1 in _start ()
+(gdb) step
+Single stepping until exit from function __libc_start_main, 
+which has no line number information.
+
+Program exited with code 0124.
+(gdb) 
+

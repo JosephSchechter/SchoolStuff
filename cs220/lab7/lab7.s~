@@ -1,0 +1,75 @@
+# lab7 by Joseph Schechter
+	.data
+
+#	Define your variable (changeable) data here.
+
+	.section	.rodata
+strg32bit1:
+	.long 0
+
+# the grades are as follows: 1st 7 are quiz (1-7), next 6 are projects (8-13), 
+# next is ME (14), next is FP (15), last is FE (16)
+s1grades:
+	.byte 99, 50, 30, 59, 22, 90, 100 	#quiz
+	.byte 89, 87, 89, 94, 29, 100		#projects
+	.byte 40, 29, 90			#ME, FP, FE
+
+
+#	Define your constant (read-only) data here.
+#	(Things like printf format strings, etc...).
+
+	.text
+
+.globl main
+	.type	main, @function
+main:
+	pushl	%ebp
+	movl	%esp, %ebp
+	subl	$40, %esp	# This number ($40) may need to be changed.
+				# Depending on how large a frame main needs.
+
+#	Insert your main function assembly code here.
+
+	pushl	$s1grades
+	call	quizaverager
+	addl	$4, %esp
+
+	leave
+	ret
+	.size	main, .-main
+
+#	Insert other functions here.
+
+###############################################################
+	.type	quizaverager, @function
+quizaverager:
+
+	pushl	%eax
+	pushl	%ebx
+	pushl	%ecx
+	pushl	%edx
+
+	movl	$0, %ebx	#useful for converting to float
+	movl	8(%ebp), %edx	#the numbers in memory (grades)
+	movl	$6, %ecx	#a counter- we are leaving some 
+				#extra space on the stack
+startquizloop:
+	movb	(%edx), %bl
+	movl	%ebx, strg32bit1
+	fildl	strg32bit1		#loads my quiz grade onto the stack
+	addl	$1, %edx	#next byte value (next grade)
+	loop	startquizloop
+# at this point we have 6 of the 7 grades on there, with an extra spot open
+	
+
+	popl	%edx
+	popl	%ecx
+	popl	%ebx
+	popl	%eax
+
+	leave
+	ret
+###############################################################
+
+	.section	.note.GNU-stack,"",@progbits
+	.ident	"GCC: (GNU) 3.3.5"

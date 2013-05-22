@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <unistd.h> 
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <errno.h>
+
+
+
+typedef struct student {
+char name[32];
+char phone[16];
+char address[128];
+} student_t;
+
+int main(int argc, char* argv[]){
+
+	student_t st;
+	char p[10];
+	char idin[999];
+	char idstr[999+7];
+	char isquit = 'n';
+		
+
+	FILE * pFile;
+	pFile = fopen("myfile.txt", "r");
+	if(pFile == NULL){//somehow failed
+		printf("fopen failed\n");
+		return 0;
+	}
+	
+	
+	while(isquit == 'n'){
+		printf("\nID >> ");
+		fgets(idin, sizeof(idin), stdin);
+	
+		sprintf(idstr, "ID$%d$ID\n", idin);
+
+		while( fgets(idinfile, sizeof(idinfile), pFile) != NULL){
+			if(strcmp(idinfile, idstr) == 0){
+				
+
+			} 
+		}
+
+
+		printf("\nRecord: ");
+/*		
+  printf("Which element? ");
+  scanf("%ld", &loc);
+  if(fseek(fp, loc*sizeof(double), SEEK_SET)) {
+    printf("Seek error.\n");
+    exit(1);
+  }
+
+  fread(&value, sizeof(double), 1, fp);
+  printf("Element %ld is %f", loc, value);
+*/
+		
+		
+	}
+	
+	fclose(pFile);
+
+
+	return 0;
+}

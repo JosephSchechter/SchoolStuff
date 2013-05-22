@@ -1,0 +1,624 @@
+joe@joe-mint ~/Desktop/Link to Dropbox/School/cs350/jschech1_3 $ ./partB3 5 999999999999999999
+
+MAXVAL == 999999999999999999
+childpid = 2398
+
+Parent created 2398
+childpid = 2399
+
+Parent created 2399
+childpid = 2400
+
+Parent created 2400
+childpid = 2401
+
+Parent created 2401
+childpid = 2402
+
+Parent created 2402
+
+
+PARENT UNLOCKS THE WORLD
+
+pid = 2399: ENGAGED
+second if, tmp1 = 1, tmp2 = 2
+pid = 2401: ENGAGED
+third if, tmp1 = 3, tmp2 = 2
+pid = 2401: ENGAGED
+second if, tmp1 = 3, tmp2 = 5
+pid = 2399: ENGAGED
+third if, tmp1 = 8, tmp2 = 5
+pid = 2399: ENGAGED
+second if, tmp1 = 8, tmp2 = 13
+pid = 2399: ENGAGED
+third if, tmp1 = 21, tmp2 = 13
+pid = 2399: ENGAGED
+second if, tmp1 = 21, tmp2 = 34
+pid = 2401: ENGAGED
+third if, tmp1 = 55, tmp2 = 34
+pid = 2399: ENGAGED
+second if, tmp1 = 55, tmp2 = 89
+pid = 2401: ENGAGED
+third if, tmp1 = 144, tmp2 = 89
+pid = 2399: ENGAGED
+second if, tmp1 = 144, tmp2 = 233
+pid = 2401: ENGAGED
+third if, tmp1 = 377, tmp2 = 233
+pid = 2399: ENGAGED
+second if, tmp1 = 377, tmp2 = 610
+pid = 2401: ENGAGED
+third if, tmp1 = 987, tmp2 = 610
+pid = 2399: ENGAGED
+second if, tmp1 = 987, tmp2 = 1597
+pid = 2401: ENGAGED
+third if, tmp1 = 2584, tmp2 = 1597
+pid = 2399: ENGAGED
+second if, tmp1 = 2584, tmp2 = 4181
+pid = 2401: ENGAGED
+third if, tmp1 = 6765, tmp2 = 4181
+pid = 2399: ENGAGED
+second if, tmp1 = 6765, tmp2 = 10946
+pid = 2398: ENGAGED
+third if, tmp1 = 17711, tmp2 = 10946
+pid = 2401: ENGAGED
+second if, tmp1 = 17711, tmp2 = 28657
+pid = 2399: ENGAGED
+third if, tmp1 = 46368, tmp2 = 28657
+pid = 2401: ENGAGED
+second if, tmp1 = 46368, tmp2 = 75025
+pid = 2399: ENGAGED
+third if, tmp1 = 121393, tmp2 = 75025
+pid = 2401: ENGAGED
+second if, tmp1 = 121393, tmp2 = 196418
+pid = 2399: ENGAGED
+third if, tmp1 = 317811, tmp2 = 196418
+pid = 2398: ENGAGED
+second if, tmp1 = 317811, tmp2 = 514229
+pid = 2401: ENGAGED
+third if, tmp1 = 832040, tmp2 = 514229
+pid = 2399: ENGAGED
+second if, tmp1 = 832040, tmp2 = 1346269
+pid = 2398: ENGAGED
+third if, tmp1 = 2178309, tmp2 = 1346269
+pid = 2400: ENGAGED
+second if, tmp1 = 2178309, tmp2 = 3524578
+pid = 2401: ENGAGED
+third if, tmp1 = 5702887, tmp2 = 3524578
+pid = 2398: ENGAGED
+second if, tmp1 = 5702887, tmp2 = 9227465
+pid = 2399: ENGAGED
+third if, tmp1 = 14930352, tmp2 = 9227465
+pid = 2401: ENGAGED
+second if, tmp1 = 14930352, tmp2 = 24157817
+pid = 2398: ENGAGED
+third if, tmp1 = 39088169, tmp2 = 24157817
+pid = 2399: ENGAGED
+second if, tmp1 = 39088169, tmp2 = 63245986
+pid = 2401: ENGAGED
+third if, tmp1 = 102334155, tmp2 = 63245986
+pid = 2398: ENGAGED
+second if, tmp1 = 102334155, tmp2 = 165580141
+pid = 2399: ENGAGED
+third if, tmp1 = 267914296, tmp2 = 165580141
+pid = 2400: ENGAGED
+second if, tmp1 = 267914296, tmp2 = 433494437
+pid = 2402: ENGAGED
+third if, tmp1 = 701408733, tmp2 = 433494437
+pid = 2401: ENGAGED
+second if, tmp1 = 701408733, tmp2 = 1134903170
+pid = 2401: ENGAGED
+third if, tmp1 = 1836311903, tmp2 = 1134903170
+pid = 2398: ENGAGED
+second if, tmp1 = 1836311903, tmp2 = 2971215073
+pid = 2400: ENGAGED
+third if, tmp1 = 4807526976, tmp2 = 2971215073
+pid = 2399: ENGAGED
+second if, tmp1 = 4807526976, tmp2 = 7778742049
+pid = 2402: ENGAGED
+third if, tmp1 = 12586269025, tmp2 = 7778742049
+pid = 2401: ENGAGED
+second if, tmp1 = 12586269025, tmp2 = 20365011074
+pid = 2399: ENGAGED
+third if, tmp1 = 32951280099, tmp2 = 20365011074
+pid = 2400: ENGAGED
+second if, tmp1 = 32951280099, tmp2 = 53316291173
+pid = 2400: ENGAGED
+third if, tmp1 = 86267571272, tmp2 = 53316291173
+pid = 2400: ENGAGED
+second if, tmp1 = 86267571272, tmp2 = 139583862445
+pid = 2400: ENGAGED
+third if, tmp1 = 225851433717, tmp2 = 139583862445
+pid = 2400: ENGAGED
+second if, tmp1 = 225851433717, tmp2 = 365435296162
+pid = 2400: ENGAGED
+third if, tmp1 = 591286729879, tmp2 = 365435296162
+pid = 2400: ENGAGED
+second if, tmp1 = 591286729879, tmp2 = 956722026041
+pid = 2400: ENGAGED
+third if, tmp1 = 1548008755920, tmp2 = 956722026041
+pid = 2400: ENGAGED
+second if, tmp1 = 1548008755920, tmp2 = 2504730781961
+pid = 2400: ENGAGED
+third if, tmp1 = 4052739537881, tmp2 = 2504730781961
+pid = 2400: ENGAGED
+second if, tmp1 = 4052739537881, tmp2 = 6557470319842
+pid = 2400: ENGAGED
+third if, tmp1 = 10610209857723, tmp2 = 6557470319842
+pid = 2400: ENGAGED
+second if, tmp1 = 10610209857723, tmp2 = 17167680177565
+pid = 2400: ENGAGED
+third if, tmp1 = 27777890035288, tmp2 = 17167680177565
+pid = 2400: ENGAGED
+second if, tmp1 = 27777890035288, tmp2 = 44945570212853
+pid = 2400: ENGAGED
+third if, tmp1 = 72723460248141, tmp2 = 44945570212853
+pid = 2400: ENGAGED
+second if, tmp1 = 72723460248141, tmp2 = 117669030460994
+pid = 2400: ENGAGED
+third if, tmp1 = 190392490709135, tmp2 = 117669030460994
+pid = 2400: ENGAGED
+second if, tmp1 = 190392490709135, tmp2 = 308061521170129
+pid = 2400: ENGAGED
+third if, tmp1 = 498454011879264, tmp2 = 308061521170129
+pid = 2400: ENGAGED
+second if, tmp1 = 498454011879264, tmp2 = 806515533049393
+pid = 2400: ENGAGED
+third if, tmp1 = 1304969544928657, tmp2 = 806515533049393
+pid = 2400: ENGAGED
+second if, tmp1 = 1304969544928657, tmp2 = 2111485077978050
+pid = 2400: ENGAGED
+third if, tmp1 = 3416454622906707, tmp2 = 2111485077978050
+pid = 2400: ENGAGED
+second if, tmp1 = 3416454622906707, tmp2 = 5527939700884757
+pid = 2400: ENGAGED
+third if, tmp1 = 8944394323791464, tmp2 = 5527939700884757
+pid = 2400: ENGAGED
+second if, tmp1 = 8944394323791464, tmp2 = 14472334024676221
+pid = 2400: ENGAGED
+third if, tmp1 = 23416728348467685, tmp2 = 14472334024676221
+pid = 2400: ENGAGED
+second if, tmp1 = 23416728348467685, tmp2 = 37889062373143906
+pid = 2400: ENGAGED
+third if, tmp1 = 61305790721611591, tmp2 = 37889062373143906
+pid = 2400: ENGAGED
+second if, tmp1 = 61305790721611591, tmp2 = 99194853094755497
+pid = 2400: ENGAGED
+third if, tmp1 = 160500643816367088, tmp2 = 99194853094755497
+pid = 2400: ENGAGED
+second if, tmp1 = 160500643816367088, tmp2 = 259695496911122585
+pid = 2400: ENGAGED
+third if, tmp1 = 420196140727489673, tmp2 = 259695496911122585
+pid = 2400: ENGAGED
+second if, tmp1 = 420196140727489673, tmp2 = 679891637638612258
+fourth if, tmp1 = 420196140727489673, tmp2 = 679891637638612258
+pid = 2400: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2398: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2402: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2401: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2399: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+
+
+The winner has pid: 2400
+__________________________________________________________________________
+
+joe@joe-mint ~/Desktop/Link to Dropbox/School/cs350/jschech1_3 $ ./partB3 5 999999999999999999
+
+MAXVAL == 999999999999999999
+childpid = 2404
+
+Parent created 2404
+childpid = 2405
+
+Parent created 2405
+childpid = 2406
+
+Parent created 2406
+childpid = 2407
+
+Parent created 2407
+childpid = 2408
+
+Parent created 2408
+
+
+PARENT UNLOCKS THE WORLD
+
+pid = 2407: ENGAGED
+second if, tmp1 = 1, tmp2 = 2
+pid = 2406: ENGAGED
+third if, tmp1 = 3, tmp2 = 2
+pid = 2405: ENGAGED
+second if, tmp1 = 3, tmp2 = 5
+pid = 2406: ENGAGED
+third if, tmp1 = 8, tmp2 = 5
+pid = 2407: ENGAGED
+second if, tmp1 = 8, tmp2 = 13
+pid = 2405: ENGAGED
+third if, tmp1 = 21, tmp2 = 13
+pid = 2406: ENGAGED
+second if, tmp1 = 21, tmp2 = 34
+pid = 2407: ENGAGED
+third if, tmp1 = 55, tmp2 = 34
+pid = 2405: ENGAGED
+second if, tmp1 = 55, tmp2 = 89
+pid = 2406: ENGAGED
+third if, tmp1 = 144, tmp2 = 89
+pid = 2407: ENGAGED
+second if, tmp1 = 144, tmp2 = 233
+pid = 2405: ENGAGED
+third if, tmp1 = 377, tmp2 = 233
+pid = 2406: ENGAGED
+second if, tmp1 = 377, tmp2 = 610
+pid = 2408: ENGAGED
+third if, tmp1 = 987, tmp2 = 610
+pid = 2407: ENGAGED
+second if, tmp1 = 987, tmp2 = 1597
+pid = 2406: ENGAGED
+third if, tmp1 = 2584, tmp2 = 1597
+pid = 2407: ENGAGED
+second if, tmp1 = 2584, tmp2 = 4181
+pid = 2406: ENGAGED
+third if, tmp1 = 6765, tmp2 = 4181
+pid = 2408: ENGAGED
+second if, tmp1 = 6765, tmp2 = 10946
+pid = 2407: ENGAGED
+third if, tmp1 = 17711, tmp2 = 10946
+pid = 2405: ENGAGED
+second if, tmp1 = 17711, tmp2 = 28657
+pid = 2406: ENGAGED
+third if, tmp1 = 46368, tmp2 = 28657
+pid = 2408: ENGAGED
+second if, tmp1 = 46368, tmp2 = 75025
+pid = 2407: ENGAGED
+third if, tmp1 = 121393, tmp2 = 75025
+pid = 2405: ENGAGED
+second if, tmp1 = 121393, tmp2 = 196418
+pid = 2406: ENGAGED
+third if, tmp1 = 317811, tmp2 = 196418
+pid = 2408: ENGAGED
+second if, tmp1 = 317811, tmp2 = 514229
+pid = 2407: ENGAGED
+third if, tmp1 = 832040, tmp2 = 514229
+pid = 2405: ENGAGED
+second if, tmp1 = 832040, tmp2 = 1346269
+pid = 2406: ENGAGED
+third if, tmp1 = 2178309, tmp2 = 1346269
+pid = 2408: ENGAGED
+second if, tmp1 = 2178309, tmp2 = 3524578
+pid = 2407: ENGAGED
+third if, tmp1 = 5702887, tmp2 = 3524578
+pid = 2405: ENGAGED
+second if, tmp1 = 5702887, tmp2 = 9227465
+pid = 2406: ENGAGED
+third if, tmp1 = 14930352, tmp2 = 9227465
+pid = 2408: ENGAGED
+second if, tmp1 = 14930352, tmp2 = 24157817
+pid = 2407: ENGAGED
+third if, tmp1 = 39088169, tmp2 = 24157817
+pid = 2405: ENGAGED
+second if, tmp1 = 39088169, tmp2 = 63245986
+pid = 2406: ENGAGED
+third if, tmp1 = 102334155, tmp2 = 63245986
+pid = 2408: ENGAGED
+second if, tmp1 = 102334155, tmp2 = 165580141
+pid = 2407: ENGAGED
+third if, tmp1 = 267914296, tmp2 = 165580141
+pid = 2405: ENGAGED
+second if, tmp1 = 267914296, tmp2 = 433494437
+pid = 2406: ENGAGED
+third if, tmp1 = 701408733, tmp2 = 433494437
+pid = 2408: ENGAGED
+second if, tmp1 = 701408733, tmp2 = 1134903170
+pid = 2407: ENGAGED
+third if, tmp1 = 1836311903, tmp2 = 1134903170
+pid = 2405: ENGAGED
+second if, tmp1 = 1836311903, tmp2 = 2971215073
+pid = 2406: ENGAGED
+third if, tmp1 = 4807526976, tmp2 = 2971215073
+pid = 2408: ENGAGED
+second if, tmp1 = 4807526976, tmp2 = 7778742049
+pid = 2407: ENGAGED
+third if, tmp1 = 12586269025, tmp2 = 7778742049
+pid = 2405: ENGAGED
+second if, tmp1 = 12586269025, tmp2 = 20365011074
+pid = 2406: ENGAGED
+third if, tmp1 = 32951280099, tmp2 = 20365011074
+pid = 2408: ENGAGED
+second if, tmp1 = 32951280099, tmp2 = 53316291173
+pid = 2407: ENGAGED
+third if, tmp1 = 86267571272, tmp2 = 53316291173
+pid = 2405: ENGAGED
+second if, tmp1 = 86267571272, tmp2 = 139583862445
+pid = 2406: ENGAGED
+third if, tmp1 = 225851433717, tmp2 = 139583862445
+pid = 2405: ENGAGED
+second if, tmp1 = 225851433717, tmp2 = 365435296162
+pid = 2407: ENGAGED
+third if, tmp1 = 591286729879, tmp2 = 365435296162
+pid = 2406: ENGAGED
+second if, tmp1 = 591286729879, tmp2 = 956722026041
+pid = 2408: ENGAGED
+third if, tmp1 = 1548008755920, tmp2 = 956722026041
+pid = 2405: ENGAGED
+second if, tmp1 = 1548008755920, tmp2 = 2504730781961
+pid = 2407: ENGAGED
+third if, tmp1 = 4052739537881, tmp2 = 2504730781961
+pid = 2406: ENGAGED
+second if, tmp1 = 4052739537881, tmp2 = 6557470319842
+pid = 2408: ENGAGED
+third if, tmp1 = 10610209857723, tmp2 = 6557470319842
+pid = 2405: ENGAGED
+second if, tmp1 = 10610209857723, tmp2 = 17167680177565
+pid = 2407: ENGAGED
+third if, tmp1 = 27777890035288, tmp2 = 17167680177565
+pid = 2405: ENGAGED
+second if, tmp1 = 27777890035288, tmp2 = 44945570212853
+pid = 2408: ENGAGED
+third if, tmp1 = 72723460248141, tmp2 = 44945570212853
+pid = 2406: ENGAGED
+second if, tmp1 = 72723460248141, tmp2 = 117669030460994
+pid = 2407: ENGAGED
+third if, tmp1 = 190392490709135, tmp2 = 117669030460994
+pid = 2405: ENGAGED
+second if, tmp1 = 190392490709135, tmp2 = 308061521170129
+pid = 2408: ENGAGED
+third if, tmp1 = 498454011879264, tmp2 = 308061521170129
+pid = 2406: ENGAGED
+second if, tmp1 = 498454011879264, tmp2 = 806515533049393
+pid = 2407: ENGAGED
+third if, tmp1 = 1304969544928657, tmp2 = 806515533049393
+pid = 2407: ENGAGED
+second if, tmp1 = 1304969544928657, tmp2 = 2111485077978050
+pid = 2406: ENGAGED
+third if, tmp1 = 3416454622906707, tmp2 = 2111485077978050
+pid = 2407: ENGAGED
+second if, tmp1 = 3416454622906707, tmp2 = 5527939700884757
+pid = 2408: ENGAGED
+third if, tmp1 = 8944394323791464, tmp2 = 5527939700884757
+pid = 2406: ENGAGED
+second if, tmp1 = 8944394323791464, tmp2 = 14472334024676221
+pid = 2405: ENGAGED
+third if, tmp1 = 23416728348467685, tmp2 = 14472334024676221
+pid = 2407: ENGAGED
+second if, tmp1 = 23416728348467685, tmp2 = 37889062373143906
+pid = 2408: ENGAGED
+third if, tmp1 = 61305790721611591, tmp2 = 37889062373143906
+pid = 2406: ENGAGED
+second if, tmp1 = 61305790721611591, tmp2 = 99194853094755497
+pid = 2405: ENGAGED
+third if, tmp1 = 160500643816367088, tmp2 = 99194853094755497
+pid = 2407: ENGAGED
+second if, tmp1 = 160500643816367088, tmp2 = 259695496911122585
+pid = 2408: ENGAGED
+third if, tmp1 = 420196140727489673, tmp2 = 259695496911122585
+pid = 2406: ENGAGED
+second if, tmp1 = 420196140727489673, tmp2 = 679891637638612258
+fourth if, tmp1 = 420196140727489673, tmp2 = 679891637638612258
+pid = 2405: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2407: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2408: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2406: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2404: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+
+
+The winner has pid: 2406
+________________________________________________________________
+
+joe@joe-mint ~/Desktop/Link to Dropbox/School/cs350/jschech1_3 $ ./partB3 5 999999999999999999
+
+MAXVAL == 999999999999999999
+childpid = 2410
+
+Parent created 2410
+childpid = 2411
+
+Parent created 2411
+childpid = 2412
+
+Parent created 2412
+childpid = 2413
+
+Parent created 2413
+childpid = 2414
+
+Parent created 2414
+
+
+PARENT UNLOCKS THE WORLD
+
+pid = 2410: ENGAGED
+second if, tmp1 = 1, tmp2 = 2
+pid = 2414: ENGAGED
+third if, tmp1 = 3, tmp2 = 2
+pid = 2412: ENGAGED
+second if, tmp1 = 3, tmp2 = 5
+pid = 2413: ENGAGED
+third if, tmp1 = 8, tmp2 = 5
+pid = 2410: ENGAGED
+second if, tmp1 = 8, tmp2 = 13
+pid = 2414: ENGAGED
+third if, tmp1 = 21, tmp2 = 13
+pid = 2412: ENGAGED
+second if, tmp1 = 21, tmp2 = 34
+pid = 2413: ENGAGED
+third if, tmp1 = 55, tmp2 = 34
+pid = 2410: ENGAGED
+second if, tmp1 = 55, tmp2 = 89
+pid = 2414: ENGAGED
+third if, tmp1 = 144, tmp2 = 89
+pid = 2413: ENGAGED
+second if, tmp1 = 144, tmp2 = 233
+pid = 2410: ENGAGED
+third if, tmp1 = 377, tmp2 = 233
+pid = 2414: ENGAGED
+second if, tmp1 = 377, tmp2 = 610
+pid = 2413: ENGAGED
+third if, tmp1 = 987, tmp2 = 610
+pid = 2412: ENGAGED
+second if, tmp1 = 987, tmp2 = 1597
+pid = 2410: ENGAGED
+third if, tmp1 = 2584, tmp2 = 1597
+pid = 2414: ENGAGED
+second if, tmp1 = 2584, tmp2 = 4181
+pid = 2413: ENGAGED
+third if, tmp1 = 6765, tmp2 = 4181
+pid = 2412: ENGAGED
+second if, tmp1 = 6765, tmp2 = 10946
+pid = 2410: ENGAGED
+third if, tmp1 = 17711, tmp2 = 10946
+pid = 2414: ENGAGED
+second if, tmp1 = 17711, tmp2 = 28657
+pid = 2413: ENGAGED
+third if, tmp1 = 46368, tmp2 = 28657
+pid = 2412: ENGAGED
+second if, tmp1 = 46368, tmp2 = 75025
+pid = 2414: ENGAGED
+third if, tmp1 = 121393, tmp2 = 75025
+pid = 2410: ENGAGED
+second if, tmp1 = 121393, tmp2 = 196418
+pid = 2413: ENGAGED
+third if, tmp1 = 317811, tmp2 = 196418
+pid = 2412: ENGAGED
+second if, tmp1 = 317811, tmp2 = 514229
+pid = 2414: ENGAGED
+third if, tmp1 = 832040, tmp2 = 514229
+pid = 2410: ENGAGED
+second if, tmp1 = 832040, tmp2 = 1346269
+pid = 2412: ENGAGED
+third if, tmp1 = 2178309, tmp2 = 1346269
+pid = 2413: ENGAGED
+second if, tmp1 = 2178309, tmp2 = 3524578
+pid = 2412: ENGAGED
+third if, tmp1 = 5702887, tmp2 = 3524578
+pid = 2413: ENGAGED
+second if, tmp1 = 5702887, tmp2 = 9227465
+pid = 2412: ENGAGED
+third if, tmp1 = 14930352, tmp2 = 9227465
+pid = 2412: ENGAGED
+second if, tmp1 = 14930352, tmp2 = 24157817
+pid = 2413: ENGAGED
+third if, tmp1 = 39088169, tmp2 = 24157817
+pid = 2413: ENGAGED
+second if, tmp1 = 39088169, tmp2 = 63245986
+pid = 2412: ENGAGED
+third if, tmp1 = 102334155, tmp2 = 63245986
+pid = 2412: ENGAGED
+second if, tmp1 = 102334155, tmp2 = 165580141
+pid = 2413: ENGAGED
+third if, tmp1 = 267914296, tmp2 = 165580141
+pid = 2413: ENGAGED
+second if, tmp1 = 267914296, tmp2 = 433494437
+pid = 2412: ENGAGED
+third if, tmp1 = 701408733, tmp2 = 433494437
+pid = 2413: ENGAGED
+second if, tmp1 = 701408733, tmp2 = 1134903170
+pid = 2412: ENGAGED
+third if, tmp1 = 1836311903, tmp2 = 1134903170
+pid = 2413: ENGAGED
+second if, tmp1 = 1836311903, tmp2 = 2971215073
+pid = 2412: ENGAGED
+third if, tmp1 = 4807526976, tmp2 = 2971215073
+pid = 2412: ENGAGED
+second if, tmp1 = 4807526976, tmp2 = 7778742049
+pid = 2413: ENGAGED
+third if, tmp1 = 12586269025, tmp2 = 7778742049
+pid = 2413: ENGAGED
+second if, tmp1 = 12586269025, tmp2 = 20365011074
+pid = 2412: ENGAGED
+third if, tmp1 = 32951280099, tmp2 = 20365011074
+pid = 2413: ENGAGED
+second if, tmp1 = 32951280099, tmp2 = 53316291173
+pid = 2412: ENGAGED
+third if, tmp1 = 86267571272, tmp2 = 53316291173
+pid = 2413: ENGAGED
+second if, tmp1 = 86267571272, tmp2 = 139583862445
+pid = 2412: ENGAGED
+third if, tmp1 = 225851433717, tmp2 = 139583862445
+pid = 2412: ENGAGED
+second if, tmp1 = 225851433717, tmp2 = 365435296162
+pid = 2413: ENGAGED
+third if, tmp1 = 591286729879, tmp2 = 365435296162
+pid = 2412: ENGAGED
+second if, tmp1 = 591286729879, tmp2 = 956722026041
+pid = 2413: ENGAGED
+third if, tmp1 = 1548008755920, tmp2 = 956722026041
+pid = 2412: ENGAGED
+second if, tmp1 = 1548008755920, tmp2 = 2504730781961
+pid = 2413: ENGAGED
+third if, tmp1 = 4052739537881, tmp2 = 2504730781961
+pid = 2412: ENGAGED
+second if, tmp1 = 4052739537881, tmp2 = 6557470319842
+pid = 2413: ENGAGED
+third if, tmp1 = 10610209857723, tmp2 = 6557470319842
+pid = 2413: ENGAGED
+second if, tmp1 = 10610209857723, tmp2 = 17167680177565
+pid = 2412: ENGAGED
+third if, tmp1 = 27777890035288, tmp2 = 17167680177565
+pid = 2413: ENGAGED
+second if, tmp1 = 27777890035288, tmp2 = 44945570212853
+pid = 2412: ENGAGED
+third if, tmp1 = 72723460248141, tmp2 = 44945570212853
+pid = 2413: ENGAGED
+second if, tmp1 = 72723460248141, tmp2 = 117669030460994
+pid = 2412: ENGAGED
+third if, tmp1 = 190392490709135, tmp2 = 117669030460994
+pid = 2413: ENGAGED
+second if, tmp1 = 190392490709135, tmp2 = 308061521170129
+pid = 2412: ENGAGED
+third if, tmp1 = 498454011879264, tmp2 = 308061521170129
+pid = 2412: ENGAGED
+second if, tmp1 = 498454011879264, tmp2 = 806515533049393
+pid = 2413: ENGAGED
+third if, tmp1 = 1304969544928657, tmp2 = 806515533049393
+pid = 2412: ENGAGED
+second if, tmp1 = 1304969544928657, tmp2 = 2111485077978050
+pid = 2413: ENGAGED
+third if, tmp1 = 3416454622906707, tmp2 = 2111485077978050
+pid = 2412: ENGAGED
+second if, tmp1 = 3416454622906707, tmp2 = 5527939700884757
+pid = 2413: ENGAGED
+third if, tmp1 = 8944394323791464, tmp2 = 5527939700884757
+pid = 2412: ENGAGED
+second if, tmp1 = 8944394323791464, tmp2 = 14472334024676221
+pid = 2413: ENGAGED
+third if, tmp1 = 23416728348467685, tmp2 = 14472334024676221
+pid = 2412: ENGAGED
+second if, tmp1 = 23416728348467685, tmp2 = 37889062373143906
+pid = 2413: ENGAGED
+third if, tmp1 = 61305790721611591, tmp2 = 37889062373143906
+pid = 2414: ENGAGED
+second if, tmp1 = 61305790721611591, tmp2 = 99194853094755497
+pid = 2410: ENGAGED
+third if, tmp1 = 160500643816367088, tmp2 = 99194853094755497
+pid = 2413: ENGAGED
+second if, tmp1 = 160500643816367088, tmp2 = 259695496911122585
+pid = 2414: ENGAGED
+third if, tmp1 = 420196140727489673, tmp2 = 259695496911122585
+pid = 2410: ENGAGED
+second if, tmp1 = 420196140727489673, tmp2 = 679891637638612258
+fourth if, tmp1 = 420196140727489673, tmp2 = 679891637638612258
+pid = 2411: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2413: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2414: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2410: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+pid = 2412: ENGAGED
+first if, tmp1 = 1100087778366101931, tmp2 = 679891637638612258
+
+
+The winner has pid: 2410
+
+_______________________________________________________________________________

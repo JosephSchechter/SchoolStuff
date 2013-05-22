@@ -1,0 +1,230 @@
+Lab5.txt by Joseph Schechter
+class10:~/cs220/lab5> gdb lab5
+GNU gdb 6.8-debian
+Copyright (C) 2008 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i486-linux-gnu"...
+(gdb) step
+The program is not being run.
+(gdb) start
+Breakpoint 1 at 0x80483aa: file lab5.s, line 10.
+Starting program: /import/linux/home/jschech1/cs220/lab5/lab5 
+main () at lab5.s:13
+13		andl	$-16, %esp
+Current language:  auto; currently asm
+(gdb) info r
+eax            0xbf90ab84	-1081037948
+ecx            0xa5c83491	-1513605999
+edx            0x1	1
+ebx            0xb7eceff4	-1209208844
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483aa	0x80483aa <main+6>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+17		movl	$232, %eax
+(gdb) info r
+eax            0xbf90ab84	-1081037948
+ecx            0xa5c83491	-1513605999
+edx            0x1	1
+ebx            0xb7eceff4	-1209208844
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483ad	0x80483ad <main+9>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+18		movl	$0x14A, %edx
+(gdb) info r
+eax            0xe8	232
+ecx            0xa5c83491	-1513605999
+edx            0x1	1
+ebx            0xb7eceff4	-1209208844
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483b2	0x80483b2 <main+14>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+19		xchgl	%eax, %edx
+(gdb) info r
+eax            0xe8	232
+ecx            0xa5c83491	-1513605999
+edx            0x14a	330
+ebx            0xb7eceff4	-1209208844
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483b7	0x80483b7 <main+19>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+20		movl	$0x12345678, %ebx
+(gdb) info r
+eax            0x14a	330
+ecx            0xa5c83491	-1513605999
+edx            0xe8	232
+ebx            0xb7eceff4	-1209208844
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483b8	0x80483b8 <main+20>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+21		movw	$0xFFFF, %bx
+(gdb) info r
+eax            0x14a	330
+ecx            0xa5c83491	-1513605999
+edx            0xe8	232
+ebx            0x12345678	305419896
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483bd	0x80483bd <main+25>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+22		movb	$0xDD, %bl
+(gdb) info r
+eax            0x14a	330
+ecx            0xa5c83491	-1513605999
+edx            0xe8	232
+ebx            0x1234ffff	305463295
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483c1	0x80483c1 <main+29>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+23		movb	$0b01110001, %cl
+(gdb) info r
+eax            0x14a	330
+ecx            0xa5c83491	-1513605999
+edx            0xe8	232
+ebx            0x1234ffdd	305463261
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483c3	0x80483c3 <main+31>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+24		addl	$0xFEDCBA98, %ebx
+(gdb) info r
+eax            0x14a	330
+ecx            0xa5c83471	-1513606031
+edx            0xe8	232
+ebx            0x1234ffdd	305463261
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483c5	0x80483c5 <main+33>
+eflags         0x200282	[ SF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+25		adcl	%edx, %eax
+(gdb) info r
+eax            0x14a	330
+ecx            0xa5c83471	-1513606031
+edx            0xe8	232
+ebx            0x1111ba75	286374517
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483cb	0x80483cb <main+39>
+eflags         0x200213	[ CF AF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) step
+28		movl	%edx, 16(%esp)
+(gdb) info r
+eax            0x233	563
+ecx            0xa5c83471	-1513606031
+edx            0xe8	232
+ebx            0x1111ba75	286374517
+esp            0xbf90aae0	0xbf90aae0
+ebp            0xbf90aaf8	0xbf90aaf8
+esi            0x8048400	134513664
+edi            0x80482f0	134513392
+eip            0x80483cd	0x80483cd <main+41>
+eflags         0x200216	[ PF AF IF ID ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) c
+Continuing.
+eax: 0x00000233	ebx: 0x1111BA75	ecx: 0xA5C83471	edx: 0x000000E8
+
+Program exited with code 0100.
+

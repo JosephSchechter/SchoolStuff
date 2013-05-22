@@ -1,0 +1,231 @@
+Joseph Schechter
+CS350
+Assignment 2
+
+Part C Journal
+
+Changing the ins_mod() function to return -1:
+
+jschech1:/home/joe/Desktop/bakup/Part_C# insmod myxtime.ko
+insmod: error inserting 'myxtime.ko': -1 Operation not permitted
+
+It does not allow me to insert the module since it returns a -1
+
+
+
+In printing out the different seconds and nanoseconds using the xtime variable vs gettimeofday, the xtime is more accurate (nanoseconds vs microseconds). The xtime nanoseconds are smaller, possibly because of rounding issues, but also because it may be faster. If I only do N=10, the numbers do not change much. But if I increase N to 1000, I can see different seconds and nanoseconds. As time goes on, the gap between the nanoseconds of xtime vs the converted nanoseconds of gettimeofday grows larger. Getting the time seems to be quicker for xtime than gettimeofday. I am guessing gettimeofday is slower because of extra functionality that is coded for it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+Part D Journal
+
+
+Division by 0: myxtime-DivideBy0.c
+
+In divide by 0, i inserted the mod and it segfaulted and came up with a syslog messages about the stack. Then the system hung, i had to Ctrl+C in terminal to get it back to work. I tried to remove it, but it said it was in use. I ended up restarting my machine.
+
+
+jschech1:/home/joe/Desktop/bakup/Part_D# insmod myxtime-DivideBy0.ko
+Segmentation fault
+jschech1:/home/joe/Desktop/bakup/Part_D# 
+Message from syslogd@localhost at Mar 15 16:13:50 ...
+ kernel:[ 2926.376694] divide error: 0000 [#1] SMP 
+
+Message from syslogd@localhost at Mar 15 16:13:50 ...
+ kernel:[ 2926.376697] last sysfs file: /sys/devices/virtual/dmi/id/chassis_asset_tag
+
+Message from syslogd@localhost at Mar 15 16:13:50 ...
+ kernel:[ 2926.376767] Stack:
+
+Message from syslogd@localhost at Mar 15 16:13:50 ...
+ kernel:[ 2926.376779] Call Trace:
+
+Message from syslogd@localhost at Mar 15 16:13:50 ...
+ kernel:[ 2926.376789] Code: 48 85 c0 74 10 48 c7 40 60 00 10 12 a0 48 c7 40 58 00 00 00 00 b8 0a 00 00 00 31 c9 48 c7 c6 e6 10 12 a0 99 48 c7 c7 50 13 12 a0 <f7> f9 89 c2 31 c0 e8 d9 df 04 e1 31 c0 5a c3 00 00 00 00 00 00 
+
+
+
+
+
+jschech1:/home/joe/Desktop/bakup/Part_D# rmmod myxtime-DivideBy0
+ERROR: Module myxtime_DivideBy0 is in use
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Dereferencing a Null Pointer: myxtime-DerefNULL.c
+
+In dereferencing a null pointer, so far nothing has changed/has acted out of the ordinary. I can insert/remove the module with no problems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+returning a value other than zero from init_mod: myxtime-Ret5.c
+
+
+In returning a value of 5 from init_mod(), nothing out of the ordinary. I can insert and remove the module without any issues so far
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+returning no value from init_mod: myxtime-RetNothing.c
+In not returning a value for init_mod(), I got a compilation warning, but i can insert and remove the module without any issues so far
+
+
+jschech1:/home/joe/Desktop/bakup/Part_D# make
+make -C /lib/modules/2.6.32.8/build M=/home/joe/Desktop/bakup/Part_D modules
+make[1]: Entering directory `/home/joe/linux-2.6.32.8'
+  CC [M]  /home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.o
+/home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.c: In function ‘my_xtime_read’:
+/home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.c:18: warning: ISO C90 forbids mixed declarations and code
+/home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.c: In function ‘init_module’:
+/home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.c:42: warning: no return statement in function returning non-void
+  Building modules, stage 2.
+make[2]: Warning: File `/home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.o' has modification time 0.12 s in the future
+  MODPOST 4 modules
+  CC      /home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.mod.o
+  LD [M]  /home/joe/Desktop/bakup/Part_D/myxtime-RetNothing.ko
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory `/home/joe/linux-2.6.32.8'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+calling a C library routine from inside a kernel module: myxtime-printf.c
+In trying to use printf(), I am unable to compile. If I don't add any more #include's, it just says its an implicit function error. If i do #include </usr/include/stdio.h>,
+it can't compile due to many errors it finds within stdio.h. It expects it to be asm code or __attribute__ code. Basically I think the code is too high-level for the kernel to use
+
+
+
+
+
+jschech1:/home/joe/Desktop/bakup/Part_D# make
+make -C /lib/modules/2.6.32.8/build M=/home/joe/Desktop/bakup/Part_D modules
+make[1]: Entering directory `/home/joe/linux-2.6.32.8'
+  CC [M]  /home/joe/Desktop/bakup/Part_D/myxtime-printf.o
+In file included from /home/joe/Desktop/bakup/Part_D/myxtime-printf.c:5:
+/usr/include/stdio.h:28:23: error: features.h: No such file or directory
+/usr/include/stdio.h:36:25: error: bits/types.h: No such file or directory
+In file included from /home/joe/Desktop/bakup/Part_D/myxtime-printf.c:5:
+/usr/include/stdio.h:45: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘struct’
+/usr/include/stdio.h:49: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘typedef’
+/usr/include/stdio.h:65: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘typedef’
+/usr/include/stdio.h:75:19: error: libio.h: No such file or directory
+/usr/include/stdio.h:91: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘typedef’
+/usr/include/stdio.h:141:28: error: bits/stdio_lim.h: No such file or directory
+/usr/include/stdio.h:145: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘extern’
+/usr/include/stdio.h:155: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘extern’
+/usr/include/stdio.h: In function ‘rename’:
+/usr/include/stdio.h:157: error: expected declaration specifiers before ‘__THROW’
+/usr/include/stdio.h:158: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:186: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__THROW’
+/usr/include/stdio.h:187: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:219: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:220: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:255: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+/usr/include/stdio.h:272: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:311: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:313: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:337: error: storage class specified for parameter ‘printf’
+/usr/include/stdio.h:340: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__THROW’
+/usr/include/stdio.h:346: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:352: error: expected declaration specifiers or ‘...’ before ‘_G_va_list’
+/usr/include/stdio.h:352: error: storage class specified for parameter ‘vprintf’
+/usr/include/stdio.h:355: error: expected declaration specifiers or ‘...’ before ‘_G_va_list’
+/usr/include/stdio.h:355: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__THROW’
+/usr/include/stdio.h:356: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:409: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__wur’
+/usr/include/stdio.h:412: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__THROW’
+/usr/include/stdio.h:441: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:510: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:516: error: storage class specified for parameter ‘getchar’
+/usr/include/stdio.h:517: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:552: error: expected declaration specifiers or ‘...’ before ‘FILE’
+/usr/include/stdio.h:552: error: storage class specified for parameter ‘putc’
+/usr/include/stdio.h:558: error: storage class specified for parameter ‘putchar’
+/usr/include/stdio.h:559: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:608: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__wur’
+/usr/include/stdio.h:609: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:664: error: storage class specified for parameter ‘puts’
+/usr/include/stdio.h:671: error: expected declaration specifiers or ‘...’ before ‘FILE’
+/usr/include/stdio.h:671: error: storage class specified for parameter ‘ungetc’
+/usr/include/stdio.h:679: error: expected declaration specifiers or ‘...’ before ‘FILE’
+/usr/include/stdio.h:679: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__wur’
+/usr/include/stdio.h:685: error: expected declaration specifiers or ‘...’ before ‘FILE’
+/usr/include/stdio.h:685: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__wur’
+/usr/include/stdio.h:686: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:723: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:728: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:729: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:772: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:784: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:797: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:799: error: expected ‘)’ before ‘*’ token
+/usr/include/stdio.h:800: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:816: error: expected declaration specifiers before ‘__END_NAMESPACE_STD’
+/usr/include/stdio.h:822:30: error: bits/sys_errlist.h: No such file or directory
+/usr/include/stdio.h:905:5: warning: "__USE_FORTIFY_LEVEL" is not defined
+/home/joe/Desktop/bakup/Part_D/myxtime-printf.c:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+/home/joe/Desktop/bakup/Part_D/myxtime-printf.c:37: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+/home/joe/Desktop/bakup/Part_D/myxtime-printf.c:53: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+/home/joe/Desktop/bakup/Part_D/myxtime-printf.c:58: error: old-style parameter declarations in prototyped function definition
+/home/joe/Desktop/bakup/Part_D/myxtime-printf.c:56: error: expected ‘{’ at end of input
+/home/joe/Desktop/bakup/Part_D/myxtime-printf.c:56: warning: no return statement in function returning non-void
+make[2]: *** [/home/joe/Desktop/bakup/Part_D/myxtime-printf.o] Error 1
+make[1]: *** [_module_/home/joe/Desktop/bakup/Part_D] Error 2
+make[1]: Leaving directory `/home/joe/linux-2.6.32.8'
+make: *** [modules] Error 2
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Accessing outside of bounds: myxtime-segfault.c
+In accessing outside of an array's bounds, I got a compilation warning about accesing out of bounds, but I could insert and remove the module fine.
+
+jschech1:/home/joe/Desktop/bakup/Part_D# make
+make -C /lib/modules/2.6.32.8/build M=/home/joe/Desktop/bakup/Part_D modules
+make[1]: Entering directory `/home/joe/linux-2.6.32.8'
+  CC [M]  /home/joe/Desktop/bakup/Part_D/myxtime-segfault.o
+/home/joe/Desktop/bakup/Part_D/myxtime-segfault.c: In function ‘my_xtime_read’:
+/home/joe/Desktop/bakup/Part_D/myxtime-segfault.c:18: warning: ISO C90 forbids mixed declarations and code
+/home/joe/Desktop/bakup/Part_D/myxtime-segfault.c: In function ‘init_module’:
+/home/joe/Desktop/bakup/Part_D/myxtime-segfault.c:39: warning: ISO C90 forbids mixed declarations and code
+/home/joe/Desktop/bakup/Part_D/myxtime-segfault.c:40: warning: array subscript is above array bounds
+  Building modules, stage 2.
+make[2]: Warning: File `/home/joe/Desktop/bakup/Part_D/myxtime-segfault.o' has modification time 0.34 s in the future
+  MODPOST 5 modules
+  CC      /home/joe/Desktop/bakup/Part_D/myxtime-segfault.mod.o
+  LD [M]  /home/joe/Desktop/bakup/Part_D/myxtime-segfault.ko
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory `/home/joe/linux-2.6.32.8'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Writing out of bounds: myxtime-segfault2.c
+In writing to a part outside of an array's bounds, I recieved no errors and I could insert and remove the module with no errors.
+
+
+
+
+
+
