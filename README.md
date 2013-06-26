@@ -5,7 +5,7 @@ Various School Projects
 
 OpenGL = From Multimedia Systems, basic openGL program
 
-cs220 = Compy Systems II: Archetecture & Programming
+cs220 = Computer Systems II: Archetecture & Programming
 
 cs240 = Data Structures
 
